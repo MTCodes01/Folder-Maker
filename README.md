@@ -22,7 +22,9 @@ Ensure you have Python installed.
 ```bash
 # Run the script
 python create_folder.py
+```
+> [!NOTE]
+> Place the Python file in the folder you want to save the files before running the code.
 
-NOTE: Place the Python file in the folder you want to save the files before running the code.
-
-TIP: If you want to add more files, you could just use `open()` function in the `with` statement after putting a comma `,`
+> [!TIP]
+> If you want to add more files, you could just use `open()` function in the `with` statement after putting a comma `,`
