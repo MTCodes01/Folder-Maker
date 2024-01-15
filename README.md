@@ -2,11 +2,11 @@
 
 This Python script allows you to quickly create a new project folder having the following files:
 
-**index.html** --> Includes the default layout
+## **index.html** --> Includes the default layout
 
-**styles.css**
+## **styles.css**
 
-**script.js**
+## **script.js**
 
 The script prompts you to enter a folder name, checks if the folder already exists, and creates the necessary files within the new folder.
 
