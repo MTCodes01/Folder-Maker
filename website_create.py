@@ -6,10 +6,10 @@ while True:
     if folder.lower() == 'q':                       # For Exiting the loop
         quit()
     else:
-        if os.path.exists(folder):                      # Checking if the folder exists
+        if os.path.exists(folder):                  # Checking if the folder exists
             print('\nThe folder already exists.\n')
         else:
-            os.mkdir(folder)                            # Making the folder
+            os.mkdir(folder)                        # Making the folder
             print(f'\n{folder} Created.')
             with open(f"{cwd}\\{folder}\\index.html", 'w') as fh_1, open(f"{cwd}\\{folder}\\styles.css", 'w') as fh_2, open(f"{cwd}\\{folder}\\script.js", 'w') as fh_3: # Creating the nessasary files
                 print(f'All nessasary files created in {folder}.\n')
