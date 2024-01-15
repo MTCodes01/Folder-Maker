@@ -9,13 +9,13 @@ This Python script allows you to quickly create a new project folder with defaul
 - If not, it creates a new folder with default HTML, CSS, and JavaScript files.
 
 ## Folder Structure
-`
+```
 FolderMaker\n
     │- README.md\n
     │- index.html: Default HTML file with a basic template.\n
     │- styles.css: Default CSS file with a placeholder comment.\n
     │- script.js: Default JavaScript file with a placeholder comment.\n
-  `
+```
 ## How to Run
 Ensure you have Python installed.
 Run the script using python create_folder.py.
